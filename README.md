@@ -31,5 +31,5 @@ where
 }
 ```
 
-You can still place any `#[derive(…)]` macros just below `#[desugar_impl]` any they see work
-with the desugared code.
+You can still place any `#[derive(…)]` macros just below `#[desugar_impl]`, and they'll see
+the desugared code.
